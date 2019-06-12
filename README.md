@@ -1,5 +1,9 @@
 # MySQL project using MariaDB 
 
+Learn SQL with simple, interactive exercises. 
+
+   https://sqlbolt.com/
+
     /*  use mysql in mariadb , created database 435final and import data into folder*/
     load data local
     infile '/Users/Desktop/435final/finalData/supplier.csv' into table supplier fields terminated by ',' enclosed by '"' lines terminated by '\n' ignore 1 lines;
