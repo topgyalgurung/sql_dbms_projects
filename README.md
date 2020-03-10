@@ -11,7 +11,11 @@
 - MongoDB
 - IBM DB2, Infromix
 
+## References
 
+### SQL Server
+- [SQL Server technical documentation](https://docs.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver15)
+- [SQL Shack SQL Server training](https://www.sqlshack.com/sql-server-training/)
 
 Learn SQL with simple, interactive exercises
 - [SQL Bolt](https://sqlbolt.com/)
