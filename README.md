@@ -14,7 +14,7 @@
 - IBM DB2, Infromix
 
 ## References
-
+[Normalization](https://beginnersbook.com/2015/05/normalization-in-dbms/)
 ### SQL Server
 - [SQL Server technical documentation](https://docs.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver15)
 - [SQL Shack SQL Server training](https://www.sqlshack.com/sql-server-training/)
