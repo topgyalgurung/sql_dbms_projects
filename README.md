@@ -4,6 +4,7 @@
 ### Learn SQL with simple, interactive exercises
 - [SQL Bolt](https://sqlbolt.com/)
 - [Datacamp Data Analyst with SQL Server](https://learn.datacamp.com/career-tracks/data-analyst-with-sql-server)
+- [SQL Red-gate](https://www.red-gate.com/simple-talk/sql/)
 
 ## Popular Databases
 - MySQL (open-source owned by Oracle)
@@ -21,6 +22,7 @@
 - [SQL Server technical documentation](https://docs.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver15)
 - [SQL Shack SQL Server training](https://www.sqlshack.com/sql-server-training/)
 - [SQL Server Business Intelligence Resources](https://www.mssqltips.com/sql-server-business-intelligence-resources/)
+
 
 
   
