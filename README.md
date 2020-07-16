@@ -3,6 +3,7 @@
 ## SQL - Structured Query Language or Sequel (declarative language) for maintaining and utilizing data in relational databases
 ### Learn SQL with simple, interactive exercises
 - [SQL Bolt](https://sqlbolt.com/)
+-[SQLZOO](https://sqlzoo.net/)
 - [Datacamp Data Analyst with SQL Server](https://learn.datacamp.com/career-tracks/data-analyst-with-sql-server)
 - [SQL Red-gate](https://www.red-gate.com/simple-talk/sql/)
 
