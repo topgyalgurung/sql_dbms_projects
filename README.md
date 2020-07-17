@@ -25,8 +25,9 @@
 - [SQL Server Business Intelligence Resources](https://www.mssqltips.com/sql-server-business-intelligence-resources/)
 
 ### MySQL
-
+- [MySQL Docs](https://dev.mysql.com/doc/refman/8.0/en/select.html)
 ### Oracle
+- [Oracle Docs](https://docs.oracle.com/cd/B28359_01/server.111/b28286/toc.htm)
 
 
 
