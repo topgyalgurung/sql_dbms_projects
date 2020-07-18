@@ -4,6 +4,7 @@
 ### Learn SQL with simple, interactive exercises
 - [SQL Bolt](https://sqlbolt.com/)
 - [SQLZOO](https://sqlzoo.net/)
+- [SQL Fiddle](http://sqlfiddle.com/)
 - [Datacamp Data Analyst with SQL Server](https://learn.datacamp.com/career-tracks/data-analyst-with-sql-server)
 - [SQL Red-gate](https://www.red-gate.com/simple-talk/sql/)
 
