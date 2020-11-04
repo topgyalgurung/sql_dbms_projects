@@ -8,6 +8,18 @@
 - [Datacamp Data Analyst with SQL Server](https://learn.datacamp.com/career-tracks/data-analyst-with-sql-server)
 - [SQL Red-gate](https://www.red-gate.com/simple-talk/sql/)
 
+## SQL Study Guide by General Assembly
+- [Getting Started with SQL](https://ga-create-api.s3.amazonaws.com/studyguides/getting-started-with-sql-6c347a.pdf)
+- [Exploring SQL Data with Basic Queries](https://ga-create-api.s3.amazonaws.com/studyguides/exploring-sql-data-with-basic-7a1081.pdf)
+- [Refining Queries with Where Clauses & Conditionals](https://ga-create-api.s3.amazonaws.com/studyguides/refining-queries-with-where-cl-be95c6.pdf)
+- [Modifying Text Queries with String Functions](https://ga-create-api.s3.amazonaws.com/studyguides/refining-queries-with-where-cl-be95c6.pdf)
+- [Handling Null Values](https://ga-create-api.s3.amazonaws.com/studyguides/handling-null-values-79b9a4.pdf)
+- [User Aggregate Functions to Summarize and Compare Data](https://ga-create-api.s3.amazonaws.com/studyguides/use-aggregate-functions-to-sum-1ac54d.pdf)
+- [Using Case to make new fields](https://ga-create-api.s3.amazonaws.com/studyguides/using-case-to-make-new-fields-290c4d.pdf)
+- [Joining Tables in SQL](https://ga-create-api.s3.amazonaws.com/studyguides/joining-tables-in-sql-7346ca.pdf)
+- [Joining Multiple Tables in SQL](https://ga-create-api.s3.amazonaws.com/studyguides/joining-multiple-tables-in-sql-a10f9b.pdf)
+- [Writing SQL Subqueries](https://ga-create-api.s3.amazonaws.com/studyguides/writing-sql-subqueries-768a7a.pdf)
+
 ## Popular Databases
 - MySQL (open-source owned by Oracle)
 - MariaDB (fork of MySQL)
