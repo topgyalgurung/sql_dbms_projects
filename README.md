@@ -39,6 +39,7 @@
 
 ### MySQL
 - [MySQL Docs](https://dev.mysql.com/doc/refman/8.0/en/select.html)
+- [MySQL Alternatives & Competitors](http://g2.com/products/mysql/competitors)
 ### Oracle
 - [Oracle Docs](https://docs.oracle.com/cd/B28359_01/server.111/b28286/toc.htm)
 
