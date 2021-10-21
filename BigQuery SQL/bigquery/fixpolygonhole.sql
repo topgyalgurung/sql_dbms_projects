@@ -1,0 +1,27 @@
+-- working on to fix polygon with holes --
+--
+-- trying to remove holes
+--
+
+-- WITH polygon AS (
+--   SELECT 
+--     SUBSTR(JSON_EXTRACT(ST_ASGEOJSON(c.WKT),'$.coordinates'),2,LENGTH(JSON_EXTRACT(ST_ASGEOJSON(c.WKT),'$.coordinates'))- 2) AS geography             
+--    FROM `rf-research.census_geo.2018_zcta` c
+--       WHERE GEOID10='19102'  --polygon
+-- --          WHERE GEOID10='15234'      --multipolygon
+-- ) 
+-- SELECT 
+--     CASE WHEN (p.geography=']],')   
+--     THEN
+--       SPLIT(REPLACE(REPLACE(REPLACE(SUBSTR(REPLACE(REPLACE( JSON_EXTRACT(ST_ASGEOJSON(c.WKT),'$.coordinates'),
+--             ']]],','))),'),']],',']]]],'),2,STRPOS(REPLACE(REPLACE(JSON_EXTRACT(ST_ASGEOJSON(c.WKT),'$.coordinates'),
+--                   ']]],','))),'),']],',']]]],'),']],')),
+--                        '[[[','[['),']]]',']'),')))',']]]]'),']],' )   
+--     ELSE               
+--        SPLIT(REPLACE(REPLACE(REPLACE(SUBSTR(JSON_EXTRACT(ST_ASGEOJSON(c.WKT),
+--                 '$.coordinates'), 2, LENGTH(JSON_EXTRACT(ST_ASGEOJSON(c.WKT),
+--                   '$.coordinates')) - 2),'[[[','[['),']]]',']]'),']],',']]]],'),']],')
+--     END               
+--  FROM  `rf-research.census_geo.2018_zcta` c , polygon p
+--  WHERE GEOID10='19102'  --polygon
+-- --     WHERE GEOID10='15234'  --multipolygon
