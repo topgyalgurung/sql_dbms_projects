@@ -41,10 +41,11 @@
 
 ### MySQL
 - [MySQL Docs](https://dev.mysql.com/doc/refman/8.0/en/select.html)
+- [MySQL Common Queries](https://dev.mysql.com/doc/refman/8.0/en/examples.html)
 - [MySQL Alternatives & Competitors](http://g2.com/products/mysql/competitors)
 - [Top MySQL Features](https://searchitchannel.techtarget.com/feature/What-are-the-top-MySQL-features-What-is-MySQL)
 -[ 8 Major Advantages of Using MySQL](https://www.datamation.com/storage/8-major-advantages-of-using-mysql/)
-
+- [Best practises for InnoDB tables](https://dev.mysql.com/doc/refman/8.0/en/innodb-best-practices.html)
 ### Oracle
 - [Oracle Docs](https://docs.oracle.com/cd/B28359_01/server.111/b28286/toc.htm)
 

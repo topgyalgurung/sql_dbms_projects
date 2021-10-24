@@ -1,3 +1,4 @@
+CREATE TABLE IF NOT EXISTS equitymarket_demo;
 USE equitymarket_demo;
 
 CREATE TABLE customer(
@@ -10,11 +11,16 @@ CREATE TABLE customer(
     fillPx DOUBLE,
     execid INT
     );
+    
 RENAME TABLE customer TO fills;
 
 -- SHOW GLOBAL VARIABLES LIKE 'local_infile';
 -- SET GLOBAL local_infile=1;  -- or one
 -- SET GLOBAL AllowLoadLocalInfile=true;
+
+LOAD DATA LOCAL INFILE '/Users/topgyal/desktop/sql_dbms_projects/midterm_equity_proj/file' 
+INTO TABLE fills fields terminated by ',';
+
 DESC fills;
 SELECT * FROM fills;
 SELECT count(clid) from fills;
