@@ -150,3 +150,47 @@ SET sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 SELECT *
 FROM client
 WHERE client_name LIKE '%Highschool%';
+
+-- find a list of employee and branch names; no of coln must be same, same datatype 
+SELECT first_name FROM employee
+UNION
+SELECT branch_name FROM branch;
+
+-- UNION 
+-- Find a list of all clients & branch suppliers' names
+SELECT client.client_name AS Non_Employee_Entities, client.branch_id AS Branch_ID
+FROM client
+UNION
+SELECT branch_supplier.supplier_name, branch_supplier.branch_id
+FROM branch_supplier;
+
+-- JOIN
+-- find all branched and the names of their managers
+SELECT e.emp_id, CONCAT_WS(" ",e.first_name,e.last_name) AS manager_name,b.branch_name
+FROM employee e
+JOIN branch b -- INNER JOIN
+ON e.emp_id =b.mgr_id;
+
+-- NESTED QUERY
+SELECT e.first_name,e.last_name
+FROM employee 
+WHERE e.emp_id IN(
+	SELECT w.emp_id 
+	FROM works_with w 
+	WHERE w.total_sales>30000
+);
+
+-- ON DELETE CASCADE VS ON DELETE SET NULL
+-- ON CREATING TABLE Client & branch we SET NULL
+-- ON deleting rows it will set null 
+DELETE FROM employee WHERE emp_id=102;
+SELECT * FROM branch;
+
+-- on creating table branch_supplier & works_with we set ON DELETE CASCADE
+-- ON DELETE CASCADE will delete entire row
+-- if foreign key also primary key in other table, if deleted cant be set to NULL becaz PRIMARY KEY cant be NULL
+DELETE FROM branch WHERE branch_id=2;
+SELECT * FROM branch_supplier;
+
+-- TRIGGER
+
