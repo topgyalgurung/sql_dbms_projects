@@ -32,6 +32,7 @@
 
 ## References
 - [Normalization](https://beginnersbook.com/2015/05/normalization-in-dbms/)
+- [Database Engine Rankings](https://db-engines.com/en/ranking)
 - [System Properties Comparison SQL Server vs MySQL vs Oracle](https://db-engines.com/en/system/Microsoft+SQL+Server%3BMySQL%3BOracle) 
 - [BigQuery vs SQL Server vs MySQL](https://db-engines.com/en/system/Google+BigQuery%3BMicrosoft+SQL+Server%3BMySQL)
 
