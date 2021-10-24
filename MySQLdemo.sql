@@ -48,21 +48,4 @@ SET SQL_SAFE_UPDATES = 0; -- 1 to turn on
 DELETE FROM student
 WHERE student_id=5;
 
--- COMPANY DATABASE 
-CREATE TABLE employee(
-	emp_id INT PRIMARY KEY,
-    first_name VARCHAR(40),
-    last_name VARCHAR(40),
-    birthday DATE,
-    gender VARCHAR(1),
-    salary INT,
-    super_id INT,
-    branch_id iNT
-);
-CREATE TABLE client(
-	client_id iNT PRIMARY KEY,
-    client_name VARCHAR(40),
-    branch_id INT,
-    FOREIGN KEY(branch_id) REFERENCES branch(branch_id) ON DELETE SET NULL;
     
-ALTER TABLE customer ADD FOREIGN KEY(
